@@ -7,11 +7,11 @@ import (
  
 func main() {
     n := ""
-    fmt.Print("Введите целое число: ")
+    fmt.Print("Введите что-нибудь: ")
     _, err := fmt.Scan(&n)
     if err != nil {
         log.Fatal(err)
     }
-    fmt.Printf("Вы ввели число: %s\n", n)
+    fmt.Printf("Вы ввели: %s\n", n)
 }
 
